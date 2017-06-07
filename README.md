@@ -21,7 +21,58 @@ _This webpage allows the user to enter any word and JS will return the word into
 
 ## List of Specs:
 
-* 
+* The program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+Example Input: 3
+Example Output: 3
+
+The program recognizes a single vowel.
+Input Example: a
+Output Example: a
+
+The program recognizes a single vowel, regardless of case.
+Input Example: A
+Output Example: A
+
+The program adds "ay" to single-letter words beginning with a vowel.
+Example Input: i
+Example Output: iay
+
+The program adds "ay" to multiple-letter words beginning with a vowel.
+Example Input: apple
+Example Output: appleway
+
+The program recognizes a single consonant because it is not a vowel.
+Input Example: b
+Output Example: b
+
+The program recognizes a single consonant, regardless of case.
+Input Example: B
+Output Example: B
+
+The program recognizes a consonant at the beginning of the word.
+Input Example: snacks
+Output Example: S
+
+The program moves the first consonant in word to the end.
+Input Example: blueberry
+Output Example: lueberryb
+
+The program repeats moving consonants to end of word until it hits a vowel.
+Input Example: blueberry
+Output Example: ueberrybl
+
+The program repeats moving consonants to end of word until it hits a vowel and then adds "ay".
+Input Example: blueberry
+Output Example: ueberryblay
+
+The program recognizes words beginning with "qu" and treats that "u" as a consonant.
+Input Example: queen
+Output Example: eenquay
+
+The program recognizes that words beginning with a "y" will treat the "y" as a consonant.
+Input Example: yellow
+Output Example: ellowyay
+
 
 
 ## Support and contact details
